@@ -405,11 +405,11 @@ bool writeSerial()
     const char *junkSerial;
     if (isSysNAND())
     {
-        junkSerial = "XAW00000000000";
+        junkSerial = "XAW00064343615";
     }
     else
     {
-        junkSerial = "XAW00000000001";
+        junkSerial = "XAW00064343615";
     }
 
     const u32 serialOffset = 0x250;
